@@ -8,4 +8,65 @@ html {
 
 body {
   margin: 0;
+  font-family: "Merriweather", serif;
+}
+
+header {
+  background-color: #d05c2e;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  vertical-align: middle;
+  display: inline;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.img-left {
+  float:left;
+  max-height: 40px;
+  display; inline;
+  width: 100%;
+  max-width: 40px;
+}
+
+.img-right {
+  float: right;
+  max-height: 40px;;
+  display: inline;
+  width: 100%;
+  max-width: 40px;
+}
+
+nav {
+  clear: both;
+  display: block;
+}
+
+a {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+  text-decoration: none;
+	background-color: #d05c2e;
+	color: #fff;
+}
+
+.home {
+	border-width: 2px 1px 2px 0px;
+	border-style: solid;
+	border-color: #a63f38;
+}
+.cereal {
+	border-width: 2px 1px 2px 1px;
+	border-style: solid;
+	border-color: #a63f38;
+}
+
+.legumes {
+	border-width: 2px 0px 2px 1px;
+	border-style: solid;
+	border-color: #a63f38;
 }
